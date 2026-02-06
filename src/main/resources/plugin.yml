@@ -1,0 +1,17 @@
+name: Symbiotes
+version: 2.0.0
+main: com.mason.symbiotes.SymbiotesPlugin
+description: Advanced symbiote plugin with skill trees and transformations
+authors: [ MasonAcoder31 ]
+commands:
+  symbiote:
+    description: The main command for the Symbiotes plugin
+    subcommands:
+      transform:
+        description: Transform into a symbiote
+      status:
+        description: Check the current status
+permissions:
+  symbiotes.use: Allows the use of the plugin commands
+  symbiotes.transform: Allows transformation into a symbiote
+  symbiotes.status: Allows checking the current status
